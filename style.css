@@ -156,7 +156,7 @@
 /* logo mobile */
 @media (max-width: 768px) {
     .L{
-        padding: 20px 20px;
+        padding: 20px 25px;
     }
     .logo{
         display: flex;
