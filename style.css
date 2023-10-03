@@ -303,23 +303,10 @@ nav{
     z-index: -99999;
 }
 .uiux{
-    position: absolute;
+    position: relative;
     font-family: pop;
     font-size: 150px;
     text-align: center;
-}
-.uiux1{
-    font-family: pop;
-    font-size: 150px;
-    text-align: center;
-    z-index: 999999;
-    -webkit-text-stroke: .5px rgb(255, 255, 255);
-    color: transparent;
-}
-.UIUX{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .myprofile{
     display: flex;
