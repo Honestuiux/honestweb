@@ -303,16 +303,30 @@ nav{
     width: 100%;
 }
 .uiux{
+    position: absolute;
     font-family: pop;
     font-size: 150px;
     text-align: center;
+}
+.uiux1{
+    font-family: pop;
+    font-size: 150px;
+    text-align: center;
+    z-index: 999999;
+    -webkit-text-stroke: .5px rgb(255, 255, 255);
+    color: transparent;
+}
+.UIUX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .myprofile{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -150px;
+    margin-top: -100px;
 }
 .image img{
     filter: grayscale(100%);
@@ -343,12 +357,18 @@ nav{
         text-align: center;
         line-height: 112%;
     }
+    .uiux1{
+        font-family: pop;
+        font-size: 55px;
+        text-align: center;
+        line-height: 112%;
+    }
     .myprofile{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: -70px;
+        margin-top: -40px;
     }
     .image img{
         filter: grayscale(100%);
