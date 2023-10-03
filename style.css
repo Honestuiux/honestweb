@@ -560,7 +560,7 @@ nav{
     .float1 .pr{
         width: 25px;
         float: right;
-        right: 15%;    
+        right: 10%;    
     }
     .float .xd{
         width: 25px;
@@ -581,7 +581,7 @@ nav{
     .float2 .ps{
         width: 25px;
         float: right;
-        right: 15%;
+        right: 10%;
         top: 0%;
     }
     .float3 .blender{
