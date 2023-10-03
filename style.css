@@ -555,12 +555,12 @@ nav{
     .float .ae{
         width: 25px;
         float: right;
-        right: 15%;
+        right: 10%;
     }
     .float1 .pr{
         width: 25px;
         float: right;
-        right: 13%;    
+        right: 12.5%;    
     }
     .float .xd{
         width: 25px;
@@ -581,7 +581,7 @@ nav{
     .float2 .ps{
         width: 25px;
         float: right;
-        right: 13%;
+        right: 12.5%;
         top: 0%;
     }
     .float3 .blender{
