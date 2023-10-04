@@ -313,7 +313,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -100px;
+    margin-top: -100px; filter: blur(20px);
 }
 .image img{
     filter: grayscale(100%);
@@ -607,5 +607,63 @@ nav{
         left: -10%;
         top: -50px;
     }
-        
+}
+
+/* WHAT CAN I DO */
+.ido{
+    font-size: 50px;
+    font-family: pop;
+    position: relative;
+    left: 40px;
+}
+.projects{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 350px;
+}
+.project1, .project2, .project3{
+    text-align: center;
+}
+.projects h3{
+    padding-top: 15px;
+}
+.projects img{
+    width: 380px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+    margin: 50px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .projects{
+        margin: 0%;
+        top: 130px;
+    }
+    .ido{
+        font-size: 20px;
+        font-family: pop;
+        left: 10%;
+        width: fit-content;
+    }
+    .projects img{
+        width: 300px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+    }
+    .project{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0%;
+        margin: 30px;
+    }
 }
