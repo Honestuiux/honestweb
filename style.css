@@ -254,7 +254,7 @@ nav{
 /* NAV MOBILE */
 @media (max-width: 768px) {
     nav{
-        position: relative;
+        position: fixed;
         top: 15px;
         left: 40%;
     }
