@@ -755,8 +755,9 @@ nav{
 @media (max-width: 768px) {
     .aboutme{
         top: 120px;
-        margin-left: 5%;
-        margin-right: 0%;
+        margin: 0 5%;
     }
-
+    .about h1{
+        font-size: 46px;
+    }
 }
