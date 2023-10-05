@@ -730,3 +730,33 @@ nav{
         padding: 5px;
     }
 }
+
+/* ABOUT US */
+.aboutme{
+    position: relative;
+    top: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.about{
+    padding: 30px;
+    background-color: #f1f1f1;
+}
+.about h1{
+    font-family: pop;
+    font-size: 56px;
+    text-align: center;
+    margin-top: -60px;
+}
+.myself{
+    padding: 20px 0px;
+}
+/* MOBILE */
+@media (max-width: 768px) {
+    .aboutme{
+        top: 120px;
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+
+}

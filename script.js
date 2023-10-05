@@ -12,7 +12,6 @@ document.addEventListener('click', e => {
     }, 250);
 });
 
-
 // PRELOADER
 window.addEventListener("load", function() {  
     setTimeout(function() {
