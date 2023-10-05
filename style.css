@@ -10,8 +10,8 @@
 /* CURSOR */
 .cursor {
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -616,7 +616,6 @@ nav{
     margin-left: 15%;
     margin-right: 15%;
     top: 350px;
-    z-index: -5;
 }
 .myendeavors{
     font-family: pop;
@@ -671,5 +670,63 @@ nav{
     }
     .myproject{
         margin-top: 0%;
+    }
+}
+
+
+
+/* WEB DESIGN PAGE */
+.webprojects{
+    position: relative;
+    top: 200px;
+    margin: 0 15%;
+}
+.one img{
+    width: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+.one img:hover{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transition: .5s;
+}
+.one{
+    padding: 20px;
+}
+.one h1{
+    padding: 15px;
+}
+.one{
+    text-align: center;
+}
+.projects{
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .webprojects{
+        top: 100px;
+        margin: 0 10%;
+    }
+    .one img{
+        width: 300px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 10px;
+    }
+    .projects{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .one{
+        padding: 10px;
+    }
+    .one h1{
+        padding: 5px;
     }
 }
