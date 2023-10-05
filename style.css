@@ -316,7 +316,7 @@ nav{
     align-items: center;
     margin-top: -100px; filter: blur(50px);
 }
-.image img{
+.profile img{
     filter: grayscale(100%);
     width: 486px;
 }
@@ -358,7 +358,7 @@ nav{
         align-items: center;
         margin-top: -40px;
     }
-    .image img{
+    .profile img{
         filter: grayscale(100%);
         width: 300px;
     }
@@ -611,60 +611,64 @@ nav{
 }
 
 /* WHAT CAN I DO */
-.ido{
-    font-size: 50px;
-    font-family: pop;
+.projectcontainer{
     position: relative;
-    left: 40px;
-}
-.projects{
-    position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     top: 350px;
+    z-index: -5;
 }
-.project1, .project2, .project3{
+.myendeavors{
+    font-family: pop;
+    font-size: 45px;
+    background-color: transparent;
+    border: 1px solid #cacaca;
+    width: 350px;
     text-align: center;
-}
-.projects h3{
-    padding-top: 15px;
-}
-.projects img{
-    width: 380px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
+}
+.myproject{
+    margin-top: 60px;
+}
+.image img{
+    width: 461px;
+    border-radius: 4px;
+}
+.details{
+    padding: 0px 30px;
 }
 .project{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    column-gap: 5%;
-    margin: 50px;
+    padding: 20px 0px;
 }
 
 /* MOBILE */
 @media (max-width: 768px) {
-    .projects{
-        margin: 0%;
-        top: 130px;
+    .projectcontainer{
+        position: relative;
+        top: 200px;
+        margin: 5%;
+        
     }
-    .ido{
-        font-size: 20px;
-        font-family: pop;
-        left: 10%;
-        width: fit-content;
-    }
-    .projects img{
-        width: 300px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .myendeavors{
+        font-size: 40px;
+        border: none;
+        width: 100%;
+        text-align: center;
         border-radius: 10px;
+        display: flex;
+        padding: 10px 0px;
+    }
+    .details{
+        padding: 0%;
     }
     .project{
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        column-gap: 0%;
-        margin: 30px;
+    }
+    .image img{
+        width: 320px;
+    }
+    .myproject{
+        margin-top: 0%;
     }
 }
