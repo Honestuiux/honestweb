@@ -137,9 +137,6 @@
     width: 30px;
 }
 .logo:hover{
-    .L{
-        position: relative;
-    }
     .box1{
         opacity: 0;
         transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
