@@ -619,8 +619,11 @@ nav{
 /* WHAT CAN I DO */
 .projectcontainer{
     position: relative;
-    margin: 15%;
-    top: 350px;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    top: 15px;
 }
 .myendeavors{
     font-family: pop;
@@ -776,7 +779,7 @@ nav{
 /* Index FOOTER */
 .ifooter{
     position: relative;
-    top: 100px;
+    top: 0px;
     background-color: #000;
     color: white;
 }
