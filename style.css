@@ -236,8 +236,7 @@ nav{
     right: 100px;
 }
 .hireme{
-    display: flex;
-    justify-content: center;
+    margin-top: 10px;
 }
 .hire a{
     color: rgb(255, 255, 255);
@@ -259,7 +258,7 @@ nav{
 @media (max-width: 768px) {
     nav{
         left: 0%;
-        margin-left: 60px;
+        margin-left: 100px;
         top: 16px;
         display: flex;
         justify-content: center;
@@ -294,6 +293,15 @@ nav{
         border-radius: 20px;
     }
 }
+/* TAB */
+@media (min-width: 424px) and (max-width: 768px) {
+    nav{
+        margin-left: 0%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 /* HERO SECTION */
 .hero{
     position: relative;
@@ -761,39 +769,76 @@ nav{
     }
 }
 
-/* FOOTER */
-.footer{
+/* Index FOOTER */
+.ifooter{
     position: relative;
-    top: 400px;
+    top: 100px;
     background-color: #000;
     color: white;
 }
-.footerbox{
+.ifooterbox{
     display: flex;
     justify-content: center;
 }
-.footerin{
+.ifooterin{
     margin: 50px;
     text-align: center;
 }
-.footer img{
+.ifooter img{
     padding: 20px;
 }
 
 /* MOBILE */
 @media (max-width: 768px) {
-    .footer{
+    .ifooter{
         position: relative;
         top: 100px;
     }
-    .footerin{
+    .ifooterin{
         margin: 20px;
         text-align: center;
     }
-    .footer img{
+    .ifooter img{
         padding: 10px;
     }
-    .title p{
+    .ititle p{
+        font-size: 10px;
+}
+}
+
+/* About FOOTER */
+.afooter{
+    position: relative;
+    top: 400px;
+    background-color: #000;
+    color: white;
+}
+.afooterbox{
+    display: flex;
+    justify-content: center;
+}
+.afooterin{
+    margin: 50px;
+    text-align: center;
+}
+.afooter img{
+    padding: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .afooter{
+        position: relative;
+        top: 200px;
+    }
+    .afooterin{
+        margin: 20px;
+        text-align: center;
+    }
+    .afooter img{
+        padding: 10px;
+    }
+    .atitle p{
         font-size: 10px;
     }
 }
