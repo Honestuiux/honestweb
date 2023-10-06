@@ -112,6 +112,7 @@
 .L{
     padding: 50px 100px;
     position: absolute;
+    z-index: 5;
 }
 .logo{
     display: flex;
@@ -136,7 +137,7 @@
     position: absolute;
     width: 30px;
 }
-.logo:hover{
+.L:hover{
     .box1{
         opacity: 0;
         transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
@@ -685,6 +686,7 @@ nav{
     }
     .projectcontainer{
         top: 80px;
+        margin-bottom: 10%;
     }
 }
 
