@@ -707,12 +707,17 @@ nav{
 .one{
     padding: 20px;
 }
-.one h1{
+.one h2{
     padding: 15px;
 }
 .one{
     text-align: center;
+    color: #5a5a5a;
 }
+.one:hover{
+    color: #000;
+}
+
 .projects{
     position: relative;
     top: 10px;
