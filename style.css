@@ -675,9 +675,13 @@ nav{
         margin-top: 0%;
     }
 }
-@media (min-width: 1023px) and (max-width: 1440px) {
+/* TAB */
+@media (min-width: 1024px) and (max-width: 1440px) {
     .image img{
         width: 340px;
+    }
+    .projectcontainer{
+        top: 80px;
     }
 }
 
@@ -805,6 +809,12 @@ nav{
         font-size: 10px;
 }
 }
+/* TAb */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .ifooter{
+        top: 0px;
+    }
+}
 
 /* About FOOTER */
 .afooter{
@@ -840,5 +850,11 @@ nav{
     }
     .atitle p{
         font-size: 10px;
+    }
+}
+/* TAb */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .afooter{
+        top: 250px;
     }
 }
