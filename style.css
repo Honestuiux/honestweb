@@ -343,7 +343,7 @@ nav{
 @media (max-width: 768px) {
     .hero{
         position: relative;
-        top: 30px;
+        top: 80px;
         width: 100%;
     }
     .uiux{
