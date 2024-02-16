@@ -318,6 +318,7 @@ nav{
     font-family: pop;
     font-size: 150px;
     text-align: center;
+    margin-left: 130px;
 }
 .myprofile{
     display: flex;
@@ -354,6 +355,7 @@ nav{
         font-size: 55px;
         text-align: center;
         line-height: 112%;
+        margin-left: 0%;
     }
     .uiux1{
         font-family: pop;
