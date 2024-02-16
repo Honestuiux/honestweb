@@ -781,6 +781,8 @@ nav{
 .myself{
     padding: 20px 0px;
 }
+
+
 /* MOBILE */
 @media (max-width: 768px) {
     .aboutme{
