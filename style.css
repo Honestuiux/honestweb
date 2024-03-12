@@ -792,6 +792,9 @@ nav{
     .about h1{
         font-size: 46px;
     }
+    .btn-primary{
+        margin-top: 10px;
+    }
 }
 
 /* Index FOOTER */
