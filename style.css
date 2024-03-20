@@ -320,6 +320,32 @@ nav{
     text-align: center;
     margin-left: 130px;
 }
+.typewrite{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #000000;
+    animation: cursor 1s step-start infinite, 
+       text 5s steps(18) alternate infinite;
+}
+@keyframes cursor {
+    0%, 100% { 
+      border-color: #000000; 
+    }
+  }
+  
+  @keyframes text {
+    0% { 
+      width: 0; 
+    }
+    100% { 
+      width: 24ch; 
+    }
+  }
+
 .myprofile{
     display: flex;
     flex-direction: column;
@@ -388,6 +414,12 @@ nav{
         border-radius: 4px;
         box-shadow: rgba(0, 0, 0, 0.411) 0px 2px 8px 0px;
     }
+    .typewrite{
+        font-size: 12px;
+        top: -40px;
+    }
+
+    
 }
 
 /* AFTER EFFECTS */

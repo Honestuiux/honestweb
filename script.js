@@ -21,4 +21,15 @@ window.addEventListener("load", function() {
 });
 
 
-// 3D
+// typewrite
+// var i = 0;
+// var txt = "Loyality-Trust-Honest";
+// var speed = 100;
+// function type(){
+//     if (i < txt.length){
+//         document.getElementById("demo").innerHTML += txt.charAt(i);
+//         i++;
+//         setTimeout(type, speed);
+//     }
+// }
+// type()
