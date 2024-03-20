@@ -438,8 +438,7 @@ nav{
         align-items: center;
         margin-top: -40px;
     }
-    .profile img{
-        filter: grayscale(00%);
+    .profile img:{
         width: 300px;
     }
     .mydetails h1{
