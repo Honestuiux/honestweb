@@ -749,6 +749,7 @@ nav{
         width: 300px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         border-radius: 10px;
+        height: 160px;
     }
     .projects{
         flex-wrap: wrap;
@@ -816,6 +817,13 @@ nav{
 .ifooter img{
     padding: 20px;
 }
+.designedby{
+    position: absolute;
+    bottom: 0%;
+    right: 20px;
+    text-decoration: underline;
+    font-size: 12px;
+}
 
 /* MOBILE */
 @media (max-width: 768px) {
@@ -832,7 +840,12 @@ nav{
     }
     .ititle p{
         font-size: 10px;
-}
+    }
+    .designedby{
+        font-size: 8px;
+        right: 10px;
+        bottom: -10px;
+    }
 }
 /* TAb */
 @media (min-width: 1024px) and (max-width: 1440px) {
