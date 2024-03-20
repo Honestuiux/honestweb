@@ -354,8 +354,8 @@ nav{
     margin-top: -100px;
 }
 .profile img{
-    filter: grayscale(100%);
-    width: 486px;
+    filter: grayscale(00%);
+    width: 600px;
 }
 
 .mydetails h1{
