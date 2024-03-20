@@ -346,6 +346,39 @@ nav{
     }
   }
 
+  /* shadow */
+
+  .typewrite-shadow{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #000000;
+    animation: cursor 1s step-start infinite, 
+       text 5s steps(18) alternate infinite;
+    transform: rotatex(35deg);
+    top: 10px;
+    opacity: .4;
+    filter: blur(4px);
+    
+}
+@keyframes cursor {
+    0%, 100% { 
+      border-color: #000000; 
+    }
+  }
+  
+  @keyframes text {
+    0% { 
+      width: 0; 
+    }
+    100% { 
+      width: 24ch; 
+    }
+  }
+
 .myprofile{
     display: flex;
     flex-direction: column;
@@ -418,7 +451,14 @@ nav{
         font-size: 12px;
         top: -40px;
     }
-
+    .typewrite-shadow{
+        top: -30px;
+        opacity: .4;
+        filter: blur(4px);
+        transform: rotatex(15deg);
+        left: 50%;
+        font-size: 10px;
+    }
     
 }
 
