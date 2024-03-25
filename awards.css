@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: pop;
+    src: url(fonts/poppins_semi-bold.ttf);
+}
+/* AWARDS */
+.awards-sec{
+    margin-top: 120px;
+}
+.awards img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+}
+.awards{
+    position: relative;
+}
+.awards-detail{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.awards-detail h1{
+    font-size: 160px;
+    font-weight: 800;
+    -webkit-text-stroke: 2px rgb(255, 187, 0);
+}
+.awards-detail h4{
+    text-align: center;
+    font-size: 46px;
+    background-image: linear-gradient(
+	to right,
+	#462523 0,
+	#cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#462523 100%
+	);
+   color:transparent;
+   -webkit-background-clip:text;
+}
+
+@media (max-width: 768px) {
+    .awards-detail h1{
+        font-size: 40px;
+        font-weight: 600;
+        -webkit-text-stroke: 1px rgb(255, 187, 0);
+    }
+    .awards-detail h4{
+        font-size: 16px;
+    }
+    .awards-sec{
+        margin-top: 40px;
+    }
+    .awards img{
+        width: 84%;
+        border-radius: 4px;
+        
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    
+}

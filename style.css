@@ -868,7 +868,6 @@ nav{
     padding: 20px 0px;
 }
 
-
 /* MOBILE */
 @media (max-width: 768px) {
     .aboutme{
@@ -941,6 +940,26 @@ nav{
     }
 }
 
+/* AWARDS */
+.awards-sec{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.awards-section{
+    background-color: #ffffff;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+@media (max-width: 768px) {
+    .awards-sec{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
 /* About FOOTER */
 .afooter{
     position: relative;
