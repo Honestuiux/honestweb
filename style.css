@@ -1056,7 +1056,7 @@ nav{
     }
     .youcansee{
         background-color: #1d284e18;
-        width: 270px;
+        width: 310px;
         height: 140px;
         display: block;
         margin-left: auto;
@@ -1068,7 +1068,7 @@ nav{
     .buttons{
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 30px;
     }
 }
 
