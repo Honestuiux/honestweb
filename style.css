@@ -946,7 +946,8 @@ nav{
     margin-bottom: 50px;
 }
 .awards-section{
-    background-color: #ffffff;
+    background-color: #000000;
+    color: white;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -958,6 +959,9 @@ nav{
     .awards-sec{
         margin-top: 20px;
         margin-bottom: 40px;
+    }
+    .awards-section{
+        border-radius: 4px;
     }
 }
 /* About FOOTER */
