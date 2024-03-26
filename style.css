@@ -1034,44 +1034,67 @@ nav{
         border-radius: 12px;
         margin: 0px;
     }
-    .awards-sec2 h1{
-        margin-top: 10px;
-        margin-left: 20px;
-        color: #1D284E;
-    }
     .v-award{
         width: 110px;
         height: 35px;
-        border-radius: 6px;
-        background-color: #1D284E;
-        border: none;
-        color: white;
     }
     .v-workflow{
         width: 110px;
         height: 35px;
-        border-radius: 6px;
-        background-color: #ffffff;
-        border: 1px solid #1D284E;
-        color: #1D284E;
     }
     .youcansee{
-        background-color: #1d284e18;
         width: 310px;
         height: 140px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        border-radius: 10px;
         padding: 15px;
     }
     .buttons{
-        display: flex;
-        justify-content: center;
         gap: 30px;
     }
 }
+/* @media (min-width: 1440px) and (max-width: 1513px) {
+    .awards-sec2{
+        position: absolute;
+        width: 1010px;
+        height: 210px;
+        background-color: white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 12px;
+        margin: 0px;
+    }
+    .youcansee{
+        width: 970px;
+        height: 120px;
+        padding: 15px;
+    }
+    .awards-sec1{
+        margin: -16px;
+    }
+} */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .awards-sec2{
+        width: 1010px;
+    }    
+    .youcansee{
+        width: 970px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .awards-sec2{
+        width: 700px;
+    }    
+    .youcansee{
+        width: 650px;
+    }
+    .ifooter{
+        top: 100px;
+    }
+}
+@media (min-width: 375px) and (max-width: 768px) {
+    .ifooter{
+        top: 160px;
+    }
+}
+
 
 
 /* About FOOTER */
