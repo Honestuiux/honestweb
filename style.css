@@ -1022,15 +1022,16 @@ nav{
         width: 87px;
         height: 55px;
         border-radius: 14px;
+        margin: -10px;
     }
     .awards-sec2{
         position: absolute;
-        width: 325px;
+        width: 345px;
         height: 210px;
         background-color: white;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         border-radius: 12px;
-        margin: 14px;
+        margin: 0px;
     }
     .awards-sec2 h1{
         margin-top: 10px;
