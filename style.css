@@ -867,6 +867,10 @@ nav{
 .myself{
     padding: 20px 0px;
 }
+.resume-btns{
+    display: flex;
+    gap: 30px;
+}
 
 /* MOBILE */
 @media (max-width: 768px) {
@@ -879,6 +883,11 @@ nav{
     }
     .btn-primary{
         margin-top: 10px;
+    }
+    .resume-btns{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
     }
 }
 
