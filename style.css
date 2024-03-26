@@ -729,7 +729,7 @@ nav{
     margin-top: 60px;
 }
 .image img{
-    width: 470px;
+    width: 461px;
     border-radius: 4px;
 }
 .image:hover{
@@ -767,7 +767,7 @@ nav{
         flex-wrap: wrap;
     }
     .image img{
-        width: 340px;
+        width: 350px;
     }
     .myproject{
         margin-top: 0%;
