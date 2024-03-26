@@ -885,7 +885,7 @@ nav{
 /* Index FOOTER */
 .ifooter{
     position: relative;
-    top: 0px;
+    top: 40px;
     background-color: #000;
     color: white;
 }
@@ -1051,25 +1051,7 @@ nav{
         gap: 30px;
     }
 }
-/* @media (min-width: 1440px) and (max-width: 1513px) {
-    .awards-sec2{
-        position: absolute;
-        width: 1010px;
-        height: 210px;
-        background-color: white;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        border-radius: 12px;
-        margin: 0px;
-    }
-    .youcansee{
-        width: 970px;
-        height: 120px;
-        padding: 15px;
-    }
-    .awards-sec1{
-        margin: -16px;
-    }
-} */
+
 @media (min-width: 1024px) and (max-width: 1440px) {
     .awards-sec2{
         width: 1010px;
