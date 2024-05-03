@@ -359,6 +359,12 @@ nav{
     }
   }
 
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .uiux{
+        font-size: 80px;
+    }
+  }
+
   /* shadow */
 
   .typewrite-shadow{
@@ -391,7 +397,15 @@ nav{
       width: 24ch; 
     }
   }
-
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .typewrite{
+        margin-top: -30px;
+    }
+    .typewrite-shadow{
+        margin-top: -30px;
+        
+    }
+  }
 .myprofile{
     display: flex;
     flex-direction: column;
@@ -417,6 +431,11 @@ nav{
     color: white;
     border-radius: 16px;
 }
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .myprofile{
+        margin-top: 0px;
+    }
+}
 @media (max-width: 768px) {
     .hero{
         position: relative;
@@ -433,12 +452,6 @@ nav{
     .onlyuiux{
         color: black;
         -webkit-text-stroke: 4px rgba(0, 0, 0, 0.171);
-    }
-    .uiux1{
-        font-family: pop;
-        font-size: 55px;
-        text-align: center;
-        line-height: 112%;
     }
     .myprofile{
         display: flex;
@@ -474,8 +487,21 @@ nav{
         transform: rotatex(15deg);
         left: 50%;
         font-size: 10px;
+    }   
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .uiux{
+        font-size: 60px;
     }
-    
+    .myprofile{
+        margin-top: 0px;
+    }
+    .typewrite{
+        margin-top: -30px;
+    }
+    .typewrite-shadow{
+        margin-top: -30px;
+    }
 }
 
 /* AFTER EFFECTS */
@@ -788,7 +814,11 @@ nav{
         margin-bottom: 10%;
     }
 }
-
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image img{
+        width: 300px;
+    }
+}
 
 /* WEB DESIGN PAGE */
 .webprojects{
