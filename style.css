@@ -328,10 +328,11 @@ nav{
     font-size: 150px;
     text-align: center;
     margin-left: 130px;
+    color: black;
 }
 .onlyuiux{
     color: black;
-    -webkit-text-stroke: 6px rgba(0, 0, 0, 0.171);
+    /* -webkit-text-stroke: 6px rgba(0, 0, 0, 0.171); */
 }
 .typewrite{
     position: absolute;
