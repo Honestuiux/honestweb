@@ -850,6 +850,7 @@ nav{
 }
 .one:hover{
     color: #000;
+
 }
 
 .projects{
@@ -860,6 +861,29 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.image{
+    position: relative;
+}
+.web-btn{
+    position: absolute;
+    bottom: 10%;
+    right: 6%;
+}
+.web-button{
+    border: 1px solid #ffffff;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.137);
+    backdrop-filter: blur(2px);
+    color: white;
+}
+.web-button:hover{
+    color: #ffffffb6;
+    border: 1px solid #e0e0e000;
+    background: rgba(255, 255, 255, 0.137);
+}
+
 
 /* MOBILE */
 @media (max-width: 768px) {
