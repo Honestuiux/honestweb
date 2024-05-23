@@ -421,6 +421,10 @@ nav{
 
 .mydetails h1{
     font-size: 50px;
+    margin-bottom: 0;
+}
+.mydetails p{
+    margin-bottom: 0;
 }
 .mydetails h5{
     font-size: 18px;
@@ -466,6 +470,10 @@ nav{
     }
     .mydetails h1{
         font-size: 25px;
+    }
+    .mydetails p{
+        font-size: 10px;
+        margin-bottom: 6px;
     }
     .mydetails h5{
         font-size: 12px;
