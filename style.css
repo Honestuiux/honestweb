@@ -1203,13 +1203,7 @@ nav{
     color: white;
     border-radius: 4px;
 }
-.workflow{
-    padding: 8px 26px;
-    background-color: #ffffff;
-    border: 1px solid #1D284E;
-    color: #1D284E;
-    border-radius: 4px;
-}
+
 
 @media (max-width: 1024px) {
     .award-card{

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6f5f2;
+    background-color: #fff;
+  }
+  @font-face {
+    font-family: albas;
+    src: url(workflow-fonts/albas.TTF);
+  }
+  h1 {
+    font-family: albas;
+    font-size: 80px;
+    text-align: center;
+    color: #d14d72;
+  }
+  
+  /* DELAY */
+  span {
+      display: inline-block;
+      font-size: 3rem;
+      color: #333;
+      opacity: 0;
+      transform: scale(0.5);
+      transition: opacity 0.5s ease, all 300ms cubic-bezier(.47,1.64,.41,.8);
+  }
+  
+  .visible {
+      opacity: 1;
+      transform: scale(1);
+  }
+  
+  /* HOVER */
+  h1:hover{
+      cursor: pointer;
+  }
+  #h:hover{
+      transform: scale(1.3);
+  }
+  #o:hover{
+      transform: scale(1.3);
+  }
+  #n:hover{
+      transform: scale(1.3);
+  }
+  #e:hover{
+      transform: scale(1.3);
+  }
+  #s:hover{
+      transform: scale(1.3);
+  }
+  #t:hover{
+      transform: scale(1.3);
+  }
+  
+  /* WORKFLOW */
+  .workflow{
+    border: none;
+  }
+  h2{
+      text-align: center;
+      font-family: albas;
+      color: #333;
+      letter-spacing: 10px;
+      transform: scale(0.8);
+      opacity: 0;
+      transition: opacity 0.5s ease, all 400ms cubic-bezier(.47,1.64,.41,.8);
+  }
+  .visibletwo{
+      opacity: 1;
+      transform: scale(1);
+      letter-spacing: 2px;
+  }
+  /* BUTTON BACK */
+  .workflow-backbtn{
+    padding: 6px 25px;
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-top: 2%;
+    text-decoration: none;
+    border-radius: 60px;
+    cursor: pointer;
+  }
