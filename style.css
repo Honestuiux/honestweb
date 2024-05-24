@@ -279,7 +279,7 @@ nav{
         display: flex;
         justify-content: center;
         width: 200px;
-        right: -14%;
+        right: -2%;
     }
     .navbar a{
         color: black;
