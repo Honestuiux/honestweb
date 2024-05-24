@@ -650,8 +650,8 @@ nav{
     to   { transform: translate(0, -0px); }    
 }
 
-/* BLENDER */
-.float3 .blender{
+/* CREATIE */
+.float3 .creatie{
     width: 60px;
     position: relative;
     float: right;
@@ -674,6 +674,51 @@ nav{
     to   { transform: translate(0, -0px); }    
 }
 
+/* BLENDER */
+.float3 .blender{
+    width: 60px;
+    position: relative;
+    float: left;
+    left: 6%;
+    top: -80px;
+    rotate: 0deg;
+}
+.float3{
+    animation-name: floating4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+@keyframes floating4 {
+    from { transform: translate(0,  0px); }
+    35%  { transform: translate(0, 15px); }
+    75%  { transform: translate(0, 30px); }
+    to   { transform: translate(0, -0px); }    
+}
+/* SPLINE */
+.float2 .spline{
+    width: 60px;
+    position: relative;
+    float: right;
+    right: 6%;
+    top: -80px;
+}
+.float2{
+    animation-name: floating3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+@keyframes floating3 {
+    from { transform: translate(0,  0px); }
+    25%  { transform: translate(0, 15px); }
+    65%  { transform: translate(0, 25px); }
+    to   { transform: translate(0, -0px); }    
+}
 /* FIGMA */
 .float3 .figma{
     width: 60px;
@@ -700,6 +745,10 @@ nav{
 
 /* MOBILE */
 @media (max-width: 768px) {
+    .floats{
+        margin: 0 1%;
+        box-sizing: border-box;
+    }
     .float .ae{
         width: 25px;
         float: right;
@@ -732,7 +781,7 @@ nav{
         right: 13%;
         top: 0%;
     }
-    .float3 .blender{
+    .float3 .creatie{
         width: 25px;
         float: right;
         right: 0%;
@@ -743,6 +792,87 @@ nav{
         float: left;
         left: -10%;
         top: -50px;
+    }
+    .float3 .blender{
+        width: 20px;
+        float: left;
+        left: -30%;
+        top: -60px;
+    }
+    .float2 .spline{
+        width: 20px;
+        float: right;
+        right: -22%;
+        top: -60px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .floats{
+        margin-left: -2%;
+    }
+    .float3 .blender{
+        left: -10%;
+    }
+    .float2 .spline{
+        right: -10%;
+    }
+    .float3 .figma{
+        left: 0%;
+    }
+    .float3 .creatie{
+        right: 0%
+    }
+    .float1 .rush{
+        float: left;
+        left: 15%;  
+        margin-top: 5%;
+    }
+    .float1 .pr{
+        float: right;
+        right: 15%;    
+        margin-top: 5%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .float .ae{
+        width: 45px;
+        right: 12%;
+    }
+    .float1 .pr{
+        width: 45px;
+        right: 10%;
+    }
+    .float .xd{
+        width: 45px;
+        left: 8%;
+    }
+    .float1 .rush{
+        width: 45px;
+        left: 8%;
+    }
+    .float2 .ai{
+        width: 45px;
+        left: 8%;
+    }
+    .float2 .ps{
+        width: 45px;
+        right: 10%;
+    }
+    .float3 .creatie{
+        width: 45px;
+        right: -4%;
+    }
+    .float3 .figma{
+        width: 45px;
+        left: -8%;
+    }
+    .float3 .blender{
+        width: 40px;
+        left: -10%;
+    }
+    .float2 .spline{
+        width: 40px;
+        right: -8%;
     }
 }
 
