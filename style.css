@@ -715,8 +715,8 @@ nav{
 }
 @keyframes floating3 {
     from { transform: translate(0,  0px); }
-    25%  { transform: translate(0, 15px); }
-    65%  { transform: translate(0, 25px); }
+    35%  { transform: translate(0, 15px); }
+    75%  { transform: translate(0, 30px); }
     to   { transform: translate(0, -0px); }    
 }
 /* FIGMA */
