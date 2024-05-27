@@ -73,13 +73,11 @@
       letter-spacing: 2px;
   }
   /* BUTTON BACK */
-  .workflow-backbtn{
-    padding: 6px 25px;
-    display: block;
-    width: 20%;
-    margin: auto;
+.workflow-back{
+    display: flex;
+    justify-content: center;
     margin-top: 2%;
-    text-decoration: none;
-    border-radius: 60px;
-    cursor: pointer;
-  }
+}
+.workflow-back:hover{
+    opacity: .8;
+}

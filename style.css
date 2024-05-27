@@ -1203,7 +1203,12 @@ nav{
     color: white;
     border-radius: 4px;
 }
-
+.workflow-btn{
+    padding: 8px 26px;
+    box-sizing: border-box;
+    border: 1px solid #1D284E;
+    border-radius: 4px;
+}
 
 @media (max-width: 1024px) {
     .award-card{
@@ -1219,13 +1224,13 @@ nav{
         border-radius: 10px;
     }
     .award-card{
-        height: 190px;
+        height: 196px;
         border-radius: 10px;
     }
     .viewaward{
         padding: 6px 16px;
     }
-    .workflow{
+    .workflow-btn{
         padding: 6px 16px;
     }
     .award-card h1{
