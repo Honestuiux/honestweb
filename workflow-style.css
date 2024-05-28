@@ -9,6 +9,10 @@
     font-family: albas;
     src: url(workflow-fonts/albas.TTF);
   }
+  @font-face {
+    font-family: pop;
+    src: url(fonts/poppins_semi-bold.ttf);
+}
   h1 {
     font-family: albas;
     font-size: 80px;
@@ -76,8 +80,26 @@
 .workflow-back{
     display: flex;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 3rem;
 }
 .workflow-back:hover{
     opacity: .8;
+}
+
+/* FLOWS */
+#flows{
+    text-align: center;
+    margin-top: 2rem;
+}
+h3{
+    font-family: pop;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.5s ease, all 400ms cubic-bezier(.47,1.64,.41,.8);
+}
+h3:hover{
+    color: #757575;
+}
+.visiblethree{
+    opacity: 1;
 }
