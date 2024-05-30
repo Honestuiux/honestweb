@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: albas;
+    src: url(workflow-fonts/albas.TTF);
+  }
+  @font-face {
+    font-family: pop;
+    src: url(fonts/poppins_semi-bold.ttf);
+}
+.sites-back{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.sites-back:hover{
+    opacity: .8;
+}
+.site a{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: grey;
+}
+.sites{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1{
+
+}
+.ui{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 10px 0;
+}
+@media (max-width: 768px) {
+    .sites{
+        display: grid;
+        margin-top: 2rem;
+    }
+}
