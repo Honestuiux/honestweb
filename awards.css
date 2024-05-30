@@ -43,6 +43,23 @@
         width: 30%;
     }
 }
+.provider-point{
+    background-color: #ff58a3;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+}
+.award-provider{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    h6{
+        margin-top: -10px;
+    }
+    .provider-point{
+        margin-top: -10px;
+    }
+}
 
 @media (max-width: 768px) {
     .awards-sec{
@@ -67,7 +84,18 @@
             border-radius: 1rem;
             border: 1px solid #f8bdd8;
             padding: 4px 0;
-            width: 46%;
+            width: 40%;
+            font-size: 14px;
+        }
+    }
+    .award-provider{
+        gap: 0.5rem;
+        h6{
+            margin-top: -10px;
+            font-size: 14px;
+        }
+        .provider-point{
+            margin-top: -15px;
         }
     }
 }
