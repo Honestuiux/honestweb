@@ -1179,7 +1179,7 @@ nav{
     color: #1D284E;
 }
 .award-btn-section{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(241, 241, 241);
     width: 96%;
     height: 120px;
     display: block;
@@ -1221,17 +1221,19 @@ nav{
         height: 40px;
         margin-left: -10px;
         margin-top: -10px;
-        border-radius: 10px;
+        border-radius: 20px;
     }
     .award-card{
         height: 196px;
-        border-radius: 10px;
+        border-radius: 20px;
     }
     .viewaward{
         padding: 6px 16px;
+        border-radius: 20px;
     }
     .workflow-btn{
         padding: 6px 16px;
+        border-radius: 20px;
     }
     .award-card h1{
         padding-left: 10px;
@@ -1241,9 +1243,10 @@ nav{
     }
     .award-btn-section{
         height: 136px;
+        border-radius: 14px;
     }
     .award-section{
-        margin-top: 30px;
+        margin-top: 50px;
     }
 }
 
