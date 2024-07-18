@@ -966,6 +966,10 @@ nav{
     position: relative;
     top: 200px;
     margin: 0 15%;
+    h1{
+        padding-bottom: 20px;
+        text-align: center;
+    }
 }
 .one img{
     width: 400px;
