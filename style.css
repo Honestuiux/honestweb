@@ -905,7 +905,7 @@ nav{
 }
 .image img{
     width: 461px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .image:hover{
     img{
