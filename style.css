@@ -980,6 +980,7 @@ nav{
 }
 .one img{
     width: 400px;
+    height: 200px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 16px;
     border-radius: 10px;
 }
@@ -991,7 +992,7 @@ nav{
     padding: 20px;
 }
 .one h2{
-    padding: 15px;
+    padding: 10px;
 }
 .one{
     text-align: center;
