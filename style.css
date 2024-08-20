@@ -978,6 +978,10 @@ nav{
         text-align: center;
     }
 }
+#p-video{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 16px;
+    border-radius: 10px;
+}
 .one img{
     width: 400px;
     height: 200px;
