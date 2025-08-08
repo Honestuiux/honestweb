@@ -1243,11 +1243,11 @@ nav{
         height: 40px;
         margin-left: -10px;
         margin-top: -10px;
-        border-radius: 20px;
+        border-radius: 12px;
     }
     .award-card{
         height: 196px;
-        border-radius: 20px;
+        border-radius: 8px;
     }
     .viewaward{
         padding: 6px 16px;
@@ -1265,7 +1265,8 @@ nav{
     }
     .award-btn-section{
         height: 136px;
-        border-radius: 14px;
+        width: fit-content;
+        margin: 0 10px;
     }
     .award-section{
         margin-top: 50px;
