@@ -1,0 +1,27 @@
+body{
+    margin: 10px 100px;
+}
+h4{
+    font-family: pop;
+    font-weight: 400;
+}
+h3{
+    font-family: pop;
+    font-weight: 400;
+}
+ul{
+    font-family: pop;
+    color: rgb(0, 104, 223);
+    font-weight: 200;
+}
+.aw-head{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+@media (max-width: 768px) {
+    body{
+        margin: 50px 20px;
+    }
+}
