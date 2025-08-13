@@ -33,3 +33,28 @@ window.addEventListener("load", function() {
 //     }
 // }
 // type()
+
+document.addEventListener('DOMContentLoaded', () => {
+    const card = document.getElementById('project-card');
+    const circularElement = document.getElementById('circular-element');
+    
+    // A subtle parallax effect on the circular element on mouse move
+    card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+
+        const moveX = (x - centerX) * 0.02;
+        const moveY = (y - centerY) * 0.02;
+
+        circularElement.style.transform = `translate(${moveX}px, ${moveY}px)`;
+    });
+
+    // Reset position when mouse leaves the card
+    card.addEventListener('mouseleave', () => {
+        circularElement.style.transform = 'translate(0, 0)';
+    });
+});
