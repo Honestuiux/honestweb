@@ -34,6 +34,8 @@ window.addEventListener("load", function() {
 // }
 // type()
 
+// indexproject ui
+
 document.addEventListener('DOMContentLoaded', () => {
     const card = document.getElementById('project-card');
     const circularElement = document.getElementById('circular-element');
