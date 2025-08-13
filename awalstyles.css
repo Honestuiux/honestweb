@@ -15,11 +15,18 @@
     font-family: pop-m;
     src: url(fonts/Poppins-Medium.ttf);
 }
+@font-face {
+    font-family: type;
+    src: url(fonts/JMH\ Typewriter.ttf);
+}
 body{
     margin: 10px 100px;
 }
+h1{
+    font-family: pop-m;
+}
 h4{
-    font-family: pop-r;
+    font-family: type;
     font-weight: 400;
 }
 h3{
@@ -27,7 +34,7 @@ h3{
     font-weight: 400;
 }
 ul{
-    font-family: pop-r;
+    font-family: type;
     color: rgb(0, 104, 223);
     font-weight: 200;
 }
