@@ -7,6 +7,14 @@
     font-family: pop;
     src: url(fonts/poppins_semi-bold.ttf);
 }
+@font-face {
+    font-family: pop-r;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: pop-m;
+    src: url(fonts/Poppins-Medium.ttf);
+}
 /* CURSOR */
 .cursor {
     display: block;
