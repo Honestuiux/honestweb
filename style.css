@@ -1417,7 +1417,7 @@ canvas{
 }
 
 .button-group {
-    display: flex;
+    display: none;
     gap: 20px;
 }
 
