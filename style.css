@@ -1362,6 +1362,7 @@ canvas{
     display: flex;
     align-items: center;
     overflow: hidden;
+    border-radius: 20px;
     /* box-shadow: 0 20px 40px rgba(0,0,0,0.1); */
 }
 
@@ -1374,7 +1375,7 @@ canvas{
     background-color: #e0e0e0;
     border-bottom-left-radius: 400px;
     border-top-left-radius: 400px;
-    background-image: url(images/projects/webone.jpg);
+    background-image: url(images/projects/ui2.png);
     background-size: cover;
 }
 .decorative-bgtwo{
