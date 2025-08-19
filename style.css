@@ -937,12 +937,12 @@ nav{
 /* MOBILE */
 @media (max-width: 768px) {
     .projectcontainer{
-        top: 100px;
-            margin-top: 15%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 5%;
-    top: 15px;
+    top: 100px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    
     }
     .myendeavors{
         font-size: 30px;
