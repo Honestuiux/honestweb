@@ -938,7 +938,11 @@ nav{
 @media (max-width: 768px) {
     .projectcontainer{
         top: 100px;
-        margin: 5%;
+            margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    top: 15px;
     }
     .myendeavors{
         font-size: 30px;
@@ -971,14 +975,26 @@ nav{
     }
     .projectcontainer{
         top: 80px;
-        margin-bottom: 10%;
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+            
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .image img{
         width: 300px;
     }
+    .projectcontainer{
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        top: 15px;
+    }
 }
+
 
 /* WEB DESIGN PAGE */
 .webprojects{
@@ -1272,9 +1288,9 @@ nav{
         color: #1D284E;
     }
     .award-btn-section{
-        height: 136px;
-        width: fit-content;
-        margin: 0 10px;
+        height: 70%;
+        width: 96%;
+        margin: auto;
     }
     .award-section{
         margin-top: 50px;
@@ -1552,4 +1568,35 @@ canvas{
     .button-group{
         opacity: 0;
     }
+}
+@media (max-width: 1024px) {
+    .project-card{
+        width: 100%;
+        height: auto;
+    }   
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .project-card{
+        width: 100%;
+    }
+}
+@media (max-width: 1440px) {
+    .project-card{
+        width: 100%;
+        height: 400px;
+    }
+    .decorative-bg{
+        width: 50%;
+    }
+    .decorative-bgtwo{
+        width: 50%;
+    }
+    .content-left{
+        width: 50%;
+        padding-left: 50px;
+    }
+    .content-left h1{
+        font-size: 64px;
+    }
+    
 }
